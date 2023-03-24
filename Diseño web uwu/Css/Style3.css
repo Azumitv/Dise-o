@@ -1,0 +1,138 @@
+/* Css de la landing page y las vistas que se dan en cada opción sin iniciar sesion */
+
+/*  Css del menu superior de navegación  */
+
+.navbar {
+    background-color: #02225a !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.nav-link{
+    color: #ffffff !important;
+}
+
+/* Css de los botones de login  */
+
+.btn {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+/* Css de los textos e imágenes Landing page*/
+
+.contenido{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.tituloBox{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.contenido .imagen{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.contenido .imagen img{
+    width: 600px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2e8ead;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
+
+.circulo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2e8ead;
+    clip-path: circle(670px at left 750px);
+    width: 100%;
+    height: 100%;
+}
+/*   ensayo de no sé qué
+@media screen and (min-widht:800px){
+    body{
+        background-color: aqua;
+    }
+} */
+
+/* Css de los textos e imágenes Landing page acondicionamiento fisico*/
+
+.contenido1A{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.tituloBox1A{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 60%;
+}
+
+.circulo1A{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2e8ead;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
+
+/* Css de los textos e imágenes Landing page acondicionamiento fisico*/
+
+.contenido1A{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.tituloBox1A{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 60%;
+}
+
+.circulo1A{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2e8ead;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
